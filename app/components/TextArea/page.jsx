@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import HeroPost from '../../post/HeroPost/page'
+import HeroPost from '../../post/HeroPost/page';
 const TextArea = () => {
   const [text, setText] = useState("");
   const [textarea, setTextArea] = useState("");
@@ -15,7 +15,7 @@ const TextArea = () => {
 
   const fetchApi = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/translates", {
+      const response = await fetch("https://ai-convertor.vercel.app/api/translates", {
         method: "POST",
         body: JSON.stringify({ textarea }),
       });
