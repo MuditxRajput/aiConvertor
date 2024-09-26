@@ -1,6 +1,6 @@
 "use client";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
-export function Hero() {
+ function Hero() {
   const words = [
     {
       text: "Ai",
@@ -37,3 +37,5 @@ export function Hero() {
     </div>)
   );
 }
+
+export default Hero;

@@ -1,4 +1,4 @@
-import { Hero } from "./components/Hero/page"
+import Hero from "./components/Hero/page"
 import TextArea from './components/TextArea/page'
 const page = () => {
   return (
