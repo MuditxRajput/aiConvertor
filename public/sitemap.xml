@@ -8,8 +8,34 @@
 
 
 <url>
-  <loc>https://www.aitohumantextconvertor.online/</loc>
+  <loc>https://www.aitohumantextconvertor.online</loc>
   <lastmod>2024-09-26T16:11:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.aitohumantextconvertor.online/pages/About%20us</loc>
+  <lastmod>2024-09-26T16:11:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aitohumantextconvertor.online/pages/Contact%20us</loc>
+  <lastmod>2024-09-26T16:11:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aitohumantextconvertor.online/pages/Disclaimer</loc>
+  <lastmod>2024-09-26T16:11:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aitohumantextconvertor.online/pages/Privacy%20Policy</loc>
+  <lastmod>2024-09-26T16:11:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.aitohumantextconvertor.online/pages/DMCA</loc>
+  <lastmod>2024-09-26T16:11:49+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
