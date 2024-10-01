@@ -19,7 +19,6 @@ export const metadata = {
   description:
     "Unlock the power of AI with our innovative Ai Text to Human Text Converter, designed to transform robotic AI-generated content into engaging, human-like writing. Enhance readability and boost productivity with our easy-to-use tool ai to human text. Ideal for content creators, marketers, and anyone seeking to elevate their written communication. Discover the future of content generation today!",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
