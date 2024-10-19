@@ -5,6 +5,9 @@ export async function POST(req) {
 
   try {
     // Parse the textarea from the request body
+    console.log("Inside the api");
+    console.log(process.env.DEEPL_API_KEY);
+    
     let { textarea } = await req.json();
     const lang = ["EL", "SV", "EN"]; // Languages to translate through
     // Ensure the DeepL API key is set

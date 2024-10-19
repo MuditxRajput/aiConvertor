@@ -15,7 +15,7 @@ const TextArea = () => {
 
   const fetchApi = async () => {
     try {
-      const response = await fetch("https://ai-convertor.vercel.app/api/translates", {
+      const response = await fetch("https://www.aitohumantextconvertor.online/api/translates", {
         method: "POST",
         body: JSON.stringify({ textarea }),
       });
