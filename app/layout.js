@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8884977910314227"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
         {/* Basic SEO Meta Tags */}
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
