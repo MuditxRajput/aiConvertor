@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 const HeroPost = () => {
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
