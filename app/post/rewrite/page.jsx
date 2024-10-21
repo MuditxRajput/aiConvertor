@@ -23,7 +23,7 @@ const Rewrite = () => {
           <p className="text-lg leading-7">
             If you're a student working on research, assignments, or essays and find yourself pressed for time due to deadlines or other constraints, consider using ChatGPT to draft an outline or produce the content. Later, you can rearrange and rephrase it using an AI to human text converter tool to avoid detection methods.
           </p>
-
+          <Link className='text-yellow-400' href="https://www.aitohumantextconvertor.online/">Ai to human </Link>
           <h2 className="text-2xl font-semibold mt-8">
             Free Tools for Rewriting ChatGPT Text
           </h2>

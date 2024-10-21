@@ -1,5 +1,4 @@
-import React from 'react';
-
+import Link from 'next/link';
 const Ai = () => {
   return (
     <div className="bg-black text-white min-h-screen py-10 px-4">
@@ -26,7 +25,7 @@ const Ai = () => {
           <p className="text-lg leading-7">
             There are various benefits to converting AI to human text. If we write the article ourselves, it may lack some readability, and some words and sentences may look like AI-generated content. After converting AI text to human, the content is enriched with high-quality words, and the readability of the article improves.
           </p>
-
+          <Link className='text-yellow-400' href="https://www.aitohumantextconvertor.online/">Ai to human </Link>
           <h2 className="text-2xl font-semibold mt-8">
             Limitations of AI-Generated Content Over the Internet
           </h2>
@@ -49,7 +48,7 @@ const Ai = () => {
             <li className="text-lg leading-7">Paste Your Content: Paste your content in the left side of the text area, then click the submit button. Wait for 2-3 seconds, and your humanized content will be generated.</li>
             <li className="text-lg leading-7">Get Your Human Text: After a few seconds, you will see the humanized text on the right side of the website. Your AI text has been successfully converted to human text!</li>
           </ul>
-
+          <Link className='text-yellow-400' href="https://www.aitohumantextconvertor.online/">Ai to human </Link>
           <h2 className="text-2xl font-semibold mt-8">
             Conclusion
           </h2>

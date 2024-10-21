@@ -45,6 +45,7 @@ const HeroPost = () => {
           <span className="font-semibold">Get Your Human Text:</span> 
           After a few seconds, you will see the humanized text on the right side of the website. Now your AI text has been successfully converted to human text.
         </li>
+        <Link className='text-yellow-400' href="https://www.aitohumantextconvertor.online/">Ai to human </Link>
       </ol>
     </section>
 

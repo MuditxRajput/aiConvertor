@@ -6,12 +6,26 @@ const Header = () => {
   const [open, isOpen] = useState(false);
   const router = useRouter();
   const navItem = [
+    "humanizer",
+    "rewrite",
+    "ai",
     "Contact us",
     "About us",
     "Disclaimer",
     "Privacy Policy",
     "DMCA",
   ];
+  const handler = (val)=>{
+    console.log(val);
+    
+     if(val==="humanizer" || val==="rewrite" || val ==="ai")
+     {
+        router.push(`../post/${val}`)
+     }
+     else{
+      router.push(`../pages/${val}`)
+     }
+  }
   return (
     <div className="  flex justify-between mt-1 items-center sm:px-5 py-1 px-5 relative">
       <div className="">
@@ -19,7 +33,7 @@ const Header = () => {
       </div>
       <div className=" hidden sm:flex sm:gap-4 ">
         {navItem?.map((val, index) => (
-          <div key={index} className="flex gap-3 hover:underline cursor-pointer " onClick={()=>router.push(`../pages/${val}`)}>
+          <div key={index} className="flex gap-3 hover:underline cursor-pointer " onClick={()=>handler(val)}>
             {val}
           </div>
         ))}
