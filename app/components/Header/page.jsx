@@ -14,6 +14,7 @@ const Header = () => {
     "Disclaimer",
     "Privacy Policy",
     "DMCA",
+    
   ];
   const handler = (val)=>{
     console.log(val);
